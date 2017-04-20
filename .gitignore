@@ -97,3 +97,6 @@ project/plugins/project/
 frontend/node_modules/
 
 .g8/
+
+database/*.zip
+database/apache-cassandra-3.10/
