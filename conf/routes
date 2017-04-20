@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# user registration
+POST    /user/signup                controllers.UserController.signup
+POST    /user/login                 controllers.UserController.login
+POST    /user/changepassword        controllers.UserController.changePassword
+POST    /user/resetpassword         controllers.UserController.resetPassword
+
+# user info
+GET     /user                       controllers.UserController.get
+
+# lcbo master
+GET    /locator                    controllers.LcboController.locator(q: Option[String])
