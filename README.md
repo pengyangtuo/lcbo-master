@@ -28,3 +28,6 @@ Now we can spine up the application by:
 > cd <project_folder>
 > sbt run
 ```
+the application will listen on [http://localhost:9000](http://localhost:9000)
+
+once the application is running, we can startup the [front end app](https://github.com/pengyangtuo/lcbo-client) to test the functionalities.
